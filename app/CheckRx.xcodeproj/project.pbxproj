@@ -19,6 +19,7 @@
 		D7BAF3812882C79A0008F48F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D7BAF3832882C79C0008F48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7BAF3862882C79C0008F48F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7BAF38D2882E6150008F48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		D7BAF37E2882C79A0008F48F /* CheckRx */ = {
 			isa = PBXGroup;
 			children = (
+				D7BAF38D2882E6150008F48F /* Info.plist */,
 				D7BAF37F2882C79A0008F48F /* CheckRxApp.swift */,
 				D7BAF3812882C79A0008F48F /* ContentView.swift */,
 				D7BAF3832882C79C0008F48F /* Assets.xcassets */,
@@ -269,6 +271,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CheckRx/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheckRx/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +300,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CheckRx/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheckRx/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
