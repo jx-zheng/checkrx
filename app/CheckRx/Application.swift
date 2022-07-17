@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct Application: View {
+    @State var logged_in: Bool = false
+    
     var body: some View {
-        FirstScreen()
+        if !logged_in {
+            FirstScreen(logged_in: $logged_in)
+        } else {
+            Primary()
+        }
     }
 }
 

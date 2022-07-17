@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FirstScreen: View {
+    @Binding var logged_in: Bool
     var body: some View {
         NavigationView {
             ZStack {
@@ -29,7 +30,7 @@ struct FirstScreen: View {
                         .offset(y: -27)
                     
                     VStack {
-                        NavigationLink(destination: SigninScreen()) {
+                        NavigationLink(destination: SigninScreen(logged_in: $logged_in)) {
                             HStack {
                                 Text("Sign in")
                                     .fontWeight(.bold)
@@ -68,6 +69,7 @@ struct FirstScreen: View {
 struct SigninScreen: View {
     @State private var username: String = ""
     @State private var password: String = ""
+    @Binding var logged_in: Bool
     var body: some View {
         
         ZStack {
@@ -103,7 +105,7 @@ struct SigninScreen: View {
                     }.frame(width: 350, height: 200)
                     Text("Forgot your password?").font(.callout).foregroundColor(.orange).underline().offset(y:-25)
                     
-                    Button(action: { print("tapped sign in")
+                    Button(action: { logged_in = true
                     }) {
                         HStack {
                             Text("Sign in")
@@ -129,8 +131,8 @@ struct SigninScreen: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            FirstScreen()
-            SigninScreen()
+            //FirstScreen(logged_in: false.wrappedValue)
+            //SigninScreen(logged_in: false)
         }
     }
 }
