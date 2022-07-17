@@ -8,23 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		D7BAF3802882C79A0008F48F /* CheckRxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BAF37F2882C79A0008F48F /* CheckRxApp.swift */; };
-		D7BAF3822882C79A0008F48F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BAF3812882C79A0008F48F /* ContentView.swift */; };
+		D7BAF3822882C79A0008F48F /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BAF3812882C79A0008F48F /* FirstScreen.swift */; };
 		D7BAF3842882C79C0008F48F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BAF3832882C79C0008F48F /* Assets.xcassets */; };
 		D7BAF3872882C79C0008F48F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BAF3862882C79C0008F48F /* Preview Assets.xcassets */; };
 		D7BAF3912882E9920008F48F /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7BAF3902882E9920008F48F /* PassKit.framework */; };
 		D7BAF3932882E9A40008F48F /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7BAF3922882E9A40008F48F /* HealthKit.framework */; };
+		D7BAF39728836C650008F48F /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BAF39628836C650008F48F /* Application.swift */; };
+		D7BAF3B32883F1CD0008F48F /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BAF3B22883F1CD0008F48F /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7BAF37C2882C79A0008F48F /* CheckRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BAF37F2882C79A0008F48F /* CheckRxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckRxApp.swift; sourceTree = "<group>"; };
-		D7BAF3812882C79A0008F48F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D7BAF3812882C79A0008F48F /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		D7BAF3832882C79C0008F48F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7BAF3862882C79C0008F48F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D7BAF38D2882E6150008F48F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D7BAF38E2882E9920008F48F /* CheckRx.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CheckRx.entitlements; sourceTree = "<group>"; };
 		D7BAF3902882E9920008F48F /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		D7BAF3922882E9A40008F48F /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		D7BAF39628836C650008F48F /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		D7BAF3B22883F1CD0008F48F /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +67,11 @@
 				D7BAF38E2882E9920008F48F /* CheckRx.entitlements */,
 				D7BAF38D2882E6150008F48F /* Info.plist */,
 				D7BAF37F2882C79A0008F48F /* CheckRxApp.swift */,
-				D7BAF3812882C79A0008F48F /* ContentView.swift */,
+				D7BAF3812882C79A0008F48F /* FirstScreen.swift */,
 				D7BAF3832882C79C0008F48F /* Assets.xcassets */,
 				D7BAF3852882C79C0008F48F /* Preview Content */,
+				D7BAF39628836C650008F48F /* Application.swift */,
+				D7BAF3B22883F1CD0008F48F /* HomeScreen.swift */,
 			);
 			path = CheckRx;
 			sourceTree = "<group>";
@@ -157,7 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7BAF3822882C79A0008F48F /* ContentView.swift in Sources */,
+				D7BAF3B32883F1CD0008F48F /* HomeScreen.swift in Sources */,
+				D7BAF39728836C650008F48F /* Application.swift in Sources */,
+				D7BAF3822882C79A0008F48F /* FirstScreen.swift in Sources */,
 				D7BAF3802882C79A0008F48F /* CheckRxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
