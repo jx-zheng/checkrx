@@ -1,0 +1,32 @@
+* {
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.print {
+    color: #F2A169;
+}
+
+h2{ 
+    text-align: center;
+    color: white;
+}
+
+h3{
+    text-align: center;
+}
+
+body {
+    background-color: #5D7E4C;
+}
+
+.main {
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}

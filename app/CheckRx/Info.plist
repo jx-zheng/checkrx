@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Access to sharing your health records allows pharmacists to update your health data.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Access to sharing your health records allows pharmacists to update your health data.</string>
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>Access to sharing your health records allows pharmacists to update your health data.</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
